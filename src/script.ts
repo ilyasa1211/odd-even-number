@@ -23,7 +23,7 @@ class Helper {
     return this.isEven(result) ? result : this.getEvenNumber(min, max);
   }
 
-  public static randomInt(
+  private static randomInt(
     min: number = Number.MIN_SAFE_INTEGER,
     max: number = Number.MAX_SAFE_INTEGER
   ): number {
