@@ -4,7 +4,7 @@ class Helper {
   }
 
   public static isEven(number: number): boolean {
-    return !this.isOdd(number);
+    return number % 2 == 0;
   }
 
   public static getOddNumber(
